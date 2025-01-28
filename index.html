@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .operations button {
+            margin: 2px;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .view { background-color: orange; color: white; }
+        .edit { background-color: green; color: white; }
+        .delete { background-color: red; color: white; }
+    </style>
+</head>
+<body>
+    <h2>Registered Users</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Role</th>
+            <th>Name and Surname</th>
+            <th>E-mail</th>
+            <th>Created At</th>
+            <th>Operations</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>admin</td>
+            <td>Root</td>
+            <td>David Carr</td>
+            <td>admin@novaframework.dev</td>
+            <td>03 Jun 2016, 11:15</td>
+            <td class="operations">
+                <button class="view">🔍</button>
+                <button class="edit">✏️</button>
+                <button class="delete">❌</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>marcus</td>
+            <td>Administrator</td>
+            <td>Marcus Spears</td>
+            <td>marcus@novaframework.dev</td>
+            <td>03 Jun 2016, 11:19</td>
+            <td class="operations">
+                <button class="view">🔍</button>
+                <button class="edit">✏️</button>
+                <button class="delete">❌</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>michael</td>
+            <td>Manager</td>
+            <td>Michael White</td>
+            <td>michael@novaframework.dev</td>
+            <td>03 Jun 2016, 11:20</td>
+            <td class="operations">
+                <button class="view">🔍</button>
+                <button class="edit">✏️</button>
+                <button class="delete">❌</button>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>john</td>
+            <td>User</td>
+            <td>John Kennedy</td>
+            <td>john@novaframework.dev</td>
+            <td>03 Jun 2016, 11:21</td>
+            <td class="operations">
+                <button class="view">🔍</button>
+                <button class="edit">✏️</button>
+                <button class="delete">❌</button>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>mark</td>
+            <td>User</td>
+            <td>Mark Black</td>
+            <td>mark@novaframework.dev</td>
+            <td>03 Jun 2016, 11:22</td>
+            <td class="operations">
+                <button class="view">🔍</button>
+                <button class="edit">✏️</button>
+                <button class="delete">❌</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
